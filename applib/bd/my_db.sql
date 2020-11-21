@@ -26,4 +26,6 @@ CREATE TABLE Livre (issn_livre VARCHAR(30) PRIMARY KEY ,
 						nb_pages INTEGER (4),
 						domaine_livre VARCHAR(30),
 						CONSTRAINT fk FOREIGN KEY (num_auteur) REFERENCES Auteur(num_auteur));
-						
+
+-- add admin user to db													 
+INSERT INTO Admin VALUES("admin","admin","admin");
