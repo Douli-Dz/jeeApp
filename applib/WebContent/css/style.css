@@ -1,0 +1,99 @@
+/* Général ------------------------------------------------------------------------------------- */
+
+body, p, legend, label, input {
+	font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+	padding: 10px;
+	border: 1px #0568CD solid;
+	margin: 10px;
+}
+
+legend {
+	font-weight: bold;
+	color: #0568CD;
+}
+
+form label {
+	float: left;
+	width: 200px;
+	margin: 3px 0px 0px 0px;
+}
+
+form input {
+	margin: 3px 3px 0px 0px;
+	border: 1px #999 solid;
+}
+
+form input.sansLabel {
+	margin-left: 200px;
+}
+
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+	color: #c00;
+}
+
+.erreur {
+	color: #900;
+}
+
+.succes {
+	color: #090;
+}
+
+.info {
+	font-style: italic;
+	color: #E8A22B;
+}
+
+/* Blocs constituants -------------------------------------------------------------------------- */
+div#corps {
+	margin: 10px;
+}
+
+.center-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.search {
+	border-radius: 5px;
+	all: unset;
+	padding: 6px 10px;
+}
+/* Resultat de Recherche -------------------------------------------------------------------------- */
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.button {
+border: none;
+background: #404040;
+color: #ffffff !important;
+border-radius: 6px;
+padding: 10px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+ul {
+  list-style-type: square;
+}
